@@ -1,0 +1,10 @@
+streamlit
+prefect>=2.10
+python-dotenv
+google-generativeai
+PyMuPDF
+Pillow
+pytesseract
+selenium
+webdriver-manager
+SQLAlchemy>=2.0
