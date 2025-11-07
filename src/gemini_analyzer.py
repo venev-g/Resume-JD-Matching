@@ -48,10 +48,10 @@ def analyze_resume_jd(resume_text, jd_text):
     if not jd_text or not jd_text.strip():
         raise ValueError("Job Description text cannot be empty.")
 
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
 
     generation_config = genai.types.GenerationConfig(
-        temperature=0.1,
+        temperature=0.2,
         candidate_count=1
     )
 

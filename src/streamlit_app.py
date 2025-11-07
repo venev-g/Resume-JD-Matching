@@ -54,7 +54,7 @@ def cleanup_temp_file(file_path):
 
 st.set_page_config(page_title="Resume Analyzer AI", page_icon="🤖", layout="wide")
 
-st.title("📄🤖 Resume vs. Job Description Analyzer")
+st.title("📄🤖 AI Resume Analyzer")
 st.markdown(
     """
     Upload your Resume (PDF/Image) and provide **either** a Job Description file (PDF/Image)
